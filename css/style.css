@@ -1,0 +1,19 @@
+body {
+
+    background: #2faba2d9  url("../images/Cat.jpg") repeat fixed;
+    background-position: top center;
+    color: white;
+    
+    font-size: 20px ;
+    font-style: italic;
+    /* web save font w3swchool hasznalni */
+    line-height: 15px;
+   /*  background-repeat:  repeat; tobb tujadonsagott lehet backroud egyszere meghivni vagyis több sor helyet egyzer irom ki backgroundot es space irom tuljadonsagokat short hand megadas
+    background-size: cover; */
+    /* background-colors: white; 
+    fixed backround helyen marad görgetes esetten
+    
+    */
+
+
+}

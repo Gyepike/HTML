@@ -1,0 +1,32 @@
+h1 {
+    color: orange;
+    font-size:  165%;
+    font-weight: normal;
+}
+/* padding inside box 30px  */
+.box-a {
+    background-color: lightgray;
+    padding: 30px;
+    border:  3px solid black;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 150px;
+}
+ /* margin outside the box 20 px */
+.box-b {
+    background-color: lightgreen; 
+    width: 316px;
+    /* 250 + 2 * 30 padding + 2 * 3 border = 316 */
+    height: 150px;
+}
+
+.box-c {
+    background-color: lightgray;
+    padding: 30px;
+    border:  3px solid black;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 150px;
+    box-sizing: border-box;
+    /* border sizing automatikusan beallija 250px valoban anyi lesz!!  kiszamolja bordert + padding*/
+}

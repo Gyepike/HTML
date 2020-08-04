@@ -1,0 +1,30 @@
+h1 {
+    color: orange;
+    text-align: center;
+    font-size:  165%;
+    font-weight: normal;
+}
+
+header p {
+    color: green;
+}
+
+header p span {
+    color: blue;
+}
+.high {
+    background-color: cornsilk;
+    color : red;
+}
+
+footer .high {
+
+    background-color: gray;
+    color: blue;
+}
+
+footer p  {
+
+    background-color: gray;
+    color: blueviolet;
+}

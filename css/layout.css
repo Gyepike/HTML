@@ -1,0 +1,46 @@
+h1 {
+    color: orange;
+    text-align: center;
+    font-size:  165%;
+    font-weight: normal;
+}
+
+.container {
+        max-width: 950px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: large;
+}
+
+.content-area {
+    border-top: 3px solid black;
+    color: blue;
+    border-bottom: 3px solid black;
+}
+
+.main-area {
+   width: 66%;
+   float: left;
+}
+
+.sidebar {
+    width: 33%;
+    float: left;
+ }
+ .fix {
+    clear: both;
+ }
+/* group remove clear float mindehol hasznaljak */
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
